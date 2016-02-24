@@ -1,7 +1,6 @@
 /*
  * Program1.cpp
  *
- *  Created on: Feb 3, 2016
  *      Author: Mark
  */
 #include <iostream>
@@ -267,35 +266,6 @@ int main()
 				cards = 0;
 				break;
 			}
-//			while(iss >> card)
-//			{
-//
-////				//duplicate is a boolean to check if the card is in the vector
-////				duplicate = (find(bridge.begin(), bridge.end(), card) != bridge.end());
-////
-//
-//
-////				//DUPLICATE
-////				if (duplicate) //if duplicate is true, then throw the error and clear the vector
-////				{
-////					cout << "DUPLICATE CARDS" << endl;
-////					bridge.clear();
-////					cards = 0;
-////					break;
-////				}
-//				if (bridge.empty())
-//				{
-//					bridge.push_back(card);
-//					cards++;
-//					continue;
-//				}
-//				else
-//				{
-//					bridge.push_back(card);
-//					cards++; //valid card gets added to hand, # of cards +1
-//					continue;
-//				}
-//			}
 		}
 
 		if (cin.peek() == EOF)
